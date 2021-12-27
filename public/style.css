@@ -1,0 +1,25 @@
+/* Styles go here */
+
+thead {color:green;}
+tbody {color:blue;}
+tfoot {color:red;}
+
+table, th, td {
+  border: 1px solid black;
+}
+td, th{
+  padding: 5px;
+}
+
+/* adding  for scrolling in table ; change the max-height accordingly ; th sticky ensures that header stay same , table-container :overflow ensures that we can scroll horizonatally and vertically */
+.table-container {
+    overflow: auto;
+    max-height: 160px;
+    border: 1px solid red;
+  }
+  
+  th {
+    position: sticky;
+    top: 0;
+    background: white;
+  }
